@@ -1,0 +1,36 @@
+.search{
+    position: relative;
+    font-family: Poppins;
+    text-decoration: none;
+    float:right;
+    width: 80px;
+    height: 40px;
+    background: rgb(41, 2, 31);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border: 2px solid ;
+    cursor: pointer;
+    margin-right: 100px;
+    top:-120px;
+    right: 70px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+
+.search__input{
+    position: relative;
+    font-family: Poppins;
+    font-size: 14px;
+    border: 1px solid rgb(216, 215, 215);
+    float: right;
+    width: 220px;
+    height: 40px;
+    background: #f1f1f1;
+    text-align: center;
+    border-radius: 8px;
+    top:-120px;
+    right: 70px;
+    margin: 5px;
+}

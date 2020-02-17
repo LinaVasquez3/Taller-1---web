@@ -1,0 +1,32 @@
+.mainheader {
+    background-color: #faf3f3;
+}  
+.mainheader__logo{
+    position: relative;
+    left: 0px;
+    width: 188px;
+    height: 202px;
+    float: left;
+}
+.mainheader__iconos{
+    position: absolute;
+    right: 80px;
+    width: 63px;
+    height: 43px;
+    top:50px;
+    margin: right;
+}
+
+.mainheader__link{
+    position: absolute;
+    font-family: Shadows Into Light;
+    font-size:45px;
+    line-height: 72px;
+    text-align: center;
+    color: #434F73;
+    text-decoration: none;
+    top: 100px;
+    float: left;
+    left: 145px;
+    padding: 0px;
+}
