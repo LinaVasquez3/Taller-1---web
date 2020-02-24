@@ -1,11 +1,11 @@
 .search{
     position: relative;
-    font-family: Poppins;
+    font-family: $primary-font;
     text-decoration: none;
     float:right;
     width: 80px;
     height: 40px;
-    background: rgba(217, 115, 123, 0.53);
+    background: $primary-color;
     color: white;
     font-size: 10px;
     text-align: center;
@@ -21,9 +21,9 @@
 
 .search__input{
     position: relative;
-    font-family: Poppins;
+    font-family: $primary-font;
     font-size: 15px;
-    border: 1px solid rgb(216, 215, 215);
+    border: 1px solid rgb(255, 255, 255);
     float: right;
     width: 250px;
     height: 40px;

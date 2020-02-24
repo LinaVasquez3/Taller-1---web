@@ -1,6 +1,6 @@
 .search {
   position: relative;
-  font-family: Poppins;
+  font-family: "Poppins";
   text-decoration: none;
   float: right;
   width: 80px;
@@ -21,9 +21,9 @@
 
 .search__input {
   position: relative;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 15px;
-  border: 1px solid #d8d7d7;
+  border: 1px solid white;
   float: right;
   width: 250px;
   height: 40px;
@@ -43,87 +43,106 @@
           justify-content: center;
 }
 
-.banner {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  position: absolute;
-  width: 1300px;
-  height: 600px;
-  right: 0px;
-  background: #F2CEA2;
+/*.banner{
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    right: 0px;
+    background: #F2CEA2;
 }
 
-.mainbanner__foto {
-  position: absolute;
-  top: 40px;
-  margin-left: -1080px;
-  width: 1350px;
-  height: 530px;
+
+.mainbanner__foto{
+    position: absolute;
+    top:40px;
+    margin-left: -1080px;
+    width: 1350px;
+    height: 530px;
 }
 
-h3 {
-  position: absolute;
-  top: 120px;
-  float: right;
-  right: 170px;
-  font-family: Poppins;
-  font-weight: 250;
-  font-size: 50px;
-  color: #282727;
+h3{
+    position: absolute;
+    top: 120px;
+    float:right;
+    right: 170px;
+    font-family: Poppins;
+    font-weight: 250;
+    font-size: 50px;
+    color: #282727;   
 }
 
 hr {
+    position: relative;
+    top:280px;
+    left: 150px;
+    height: 20px;
+    width: 50%;
+    background-color: rgba(217, 115, 123, 0.53);
+    border: none;
+  }
+
+
+h2{
+    position: absolute;
+    left: 535px;
+    top: 185px;
+    font-family: $specially-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size:60px;
+    color: $texto-color;
+
+}
+h4{
+    position: absolute;
+    width: 500px;
+    height: 41px;
+    left: 560px;
+    top: 340px;
+    float: center;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 109%;
+    text-align: center;
+    color: $texto-color;    
+}
+
+.conoce{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    left: 725px;
+    top: 450px;
+    background: $primary-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}*/
+.banner {
   position: relative;
-  top: 280px;
-  left: 150px;
-  height: 20px;
-  width: 50%;
-  background-color: rgba(217, 115, 123, 0.53);
-  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-h2 {
+.banner__text {
   position: absolute;
-  left: 535px;
-  top: 185px;
-  font-family: Meddon;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  color: #282727;
+  right: 0px;
+  width: 1300px;
+  height: 600px;
+  background-color: #F2CEA2;
+  z-index: -1;
 }
 
-h4 {
-  position: absolute;
-  width: 500px;
-  height: 41px;
-  left: 560px;
-  top: 340px;
-  float: center;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 23px;
-  line-height: 109%;
-  text-align: center;
-  color: #282727;
-}
-
-.conoce {
-  position: absolute;
-  width: 200px;
-  height: 35px;
-  border-radius: 10px;
-  left: 725px;
-  top: 450px;
-  background: #E59E8D;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 35px;
-  text-align: center;
-  color: #FFFFFF;
+.mainbanner__foto {
+  margin: left;
 }
 
 body, html {
@@ -154,7 +173,7 @@ body, html {
 
 .mainheader__link {
   position: absolute;
-  font-family: Shadows Into Light;
+  font-family: "Shadows Into Light";
   font-size: 45px;
   line-height: 72px;
   text-align: center;
@@ -172,7 +191,7 @@ body, html {
 .mainnav__link {
   position: relative;
   text-decoration: none;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 22px;
   line-height: 24px;
   color: #747373;

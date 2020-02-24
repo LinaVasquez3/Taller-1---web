@@ -24,11 +24,11 @@ body,html{
 
 .mainheader__link{
     position: absolute;
-    font-family: Shadows Into Light;
+    font-family: $kactu-font;
     font-size:45px;
     line-height: 72px;
     text-align: center;
-    color: #434F73;
+    color: $kactu-color;
     text-decoration: none;
     top: 80px;
     float: left;
@@ -43,10 +43,10 @@ body,html{
 .mainnav__link{
     position: relative;
     text-decoration: none;
-    font-family: Poppins;
+    font-family: $primary-font;
     font-size: 22px;
     line-height: 24px;
-    color: #747373;
+    color: $nav-color;
     padding: 20px 50px;
     left: 250px;
     top: 100px;

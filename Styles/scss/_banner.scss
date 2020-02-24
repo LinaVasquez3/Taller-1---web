@@ -1,11 +1,12 @@
-.banner{
-    flex-wrap: wrap;
+
+/*.banner{
     position: absolute;
     width: 1300px;
     height: 600px;
     right: 0px;
     background: #F2CEA2;
 }
+
 
 .mainbanner__foto{
     position: absolute;
@@ -41,11 +42,11 @@ h2{
     position: absolute;
     left: 535px;
     top: 185px;
-    font-family: Meddon;
+    font-family: $specially-font;
     font-style: normal;
     font-weight: normal;
     font-size:60px;
-    color: #282727;
+    color: $texto-color;
 
 }
 h4{
@@ -55,13 +56,13 @@ h4{
     left: 560px;
     top: 340px;
     float: center;
-    font-family: Poppins;
+    font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
     line-height: 109%;
     text-align: center;
-    color: #282727;    
+    color: $texto-color;    
 }
 
 .conoce{
@@ -71,12 +72,31 @@ h4{
     border-radius: 10px;
     left: 725px;
     top: 450px;
-    background: #E59E8D;
-    font-family: Poppins;
+    background: $primary-color;
+    font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 35px;
     text-align: center;
     color: #FFFFFF;
+}*/
+
+.banner{
+    position: relative;
+    display: flex;
+
+}
+
+.banner__text{
+    position: absolute;
+    right: 0px;
+    width: 1300px;
+    height: 600px;
+    background-color: $primary-color;
+    z-index: -1;
+}
+
+.mainbanner__foto{
+    margin: left;
 }
