@@ -82,21 +82,102 @@ h4{
     color: #FFFFFF;
 }*/
 
+
+
+
+
+/*
+
+
 .banner{
     position: relative;
     display: flex;
-
+    
 }
+.mainbanner__foto{
+    
+    position: absolute;
+    left: -200px;
+ 
+}
+
 
 .banner__text{
     position: absolute;
     right: 0px;
     width: 1300px;
-    height: 600px;
+    height: 550px;
     background-color: $primary-color;
     z-index: -1;
 }
 
 .mainbanner__foto{
-    margin: left;
+    position: relative;
+    left: 0px;
 }
+
+
+
+
+
+
+
+
+
+h3{
+    top: 120px;
+    float:right;
+    margin-right: 70px;
+    font-family: Poppins;
+    font-weight: 250;
+    font-size: 50px;
+    color: $texto-color;  
+}
+
+h2{
+    top: 195px;
+    float: right;
+    margin-right: 0px;
+    font-family: $specially-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size:60px;
+    color: $texto-color;
+}
+h4{
+    width: 500px;
+    height: 41px;
+    left: 560px;
+    top: 340px;
+    float: center;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 109%;
+    text-align: center;
+    color: $texto-color;    
+}
+
+.conoce{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    left: 725px;
+    top: 450px;
+    background: $primary-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mainbanner__foto{
+    margin: left;
+    margin-top: 45px;
+}
+
+*/

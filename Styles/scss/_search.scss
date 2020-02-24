@@ -1,5 +1,5 @@
 .search{
-    position: relative;
+
     font-family: $primary-font;
     text-decoration: none;
     float:right;
@@ -12,15 +12,12 @@
     border: 2px solid ;
     cursor: pointer;
     margin-right: 100px;
-    top:65px;
-    right: 70px;
     border-radius: 10px;
     border: none;
     margin: 5px;
 }
 
 .search__input{
-    position: relative;
     font-family: $primary-font;
     font-size: 15px;
     border: 1px solid rgb(255, 255, 255);
@@ -30,8 +27,6 @@
     background: #f1f1f1;
     text-align: center;
     border-radius: 8px;
-    top:65px;
-    right: 70px;
     margin: 5px;
 }
 
@@ -39,4 +34,8 @@
     width: 20px;
     height: 25px;
     justify-content: center;
+}
+
+.mainnav__search{
+    margin-top: 10px;
 }
