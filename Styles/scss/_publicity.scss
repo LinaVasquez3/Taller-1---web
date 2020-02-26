@@ -5,33 +5,27 @@
     background-size: cover;
     width: 100%;
     background-position: center center;
-    margin-top: -50px;
+    margin-top: -40px;
     justify-content: flex-end;
-
 }
 
 
 .publicity__mesagge{
     position: relative;
-    width: 930px;
-    height: 80px;
+    width: 788px;
+    height: 89px;
     background: $primary-color;
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
     text-align: center;
     color: #FFFFFF;
-    margin-top:150px;
+    margin-top:75px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.publicity__text{
-
 }
 
 .publicity__textalign{
@@ -44,12 +38,12 @@
 h1{
     font-family: $primary-font;
     font-weight: bold;
-    font-size: 150px;
+    font-size: 85px;
     color: $neutro-color; 
     white-space: nowrap;
     margin-top:500px;
     margin-bottom: 0px;
-    line-height: 127px;
+    line-height: 75px;
     margin-right: 150px;
     text-align: end;
 }
@@ -58,7 +52,7 @@ h1{
     font-family: $primary-font;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 45px;
     color: $neutro-color;
     margin: 10px 15px 0px 0px;
 }
@@ -67,17 +61,17 @@ h1{
     font-family: $primary-font;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 45px;
     color: $neutro-color;
-    margin: 10px 50px 0px 15px;
+    margin: 10px 10px 0px 15px;
 }
 
 .hr-vertical{
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 0px;
     margin-right: 0px;
     border:none;
-    height: 49px;
+    height: 35px;
     width:15px;   
 }
 
@@ -85,43 +79,44 @@ h1{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 15px;
     text-align: center;
     color: $neutro-color;
     background: $decoration-color;
-    margin-top: 40px;
+    margin-top: 25px;
     width: 210px;
-    height: 48px;
+    height: 35px;
     text-align: center;
-    line-height: 45px;
-    margin-right: 158px;
+    line-height: 35px;
+    margin-right: 155px;
 }
 
 .publicity__typeh5{
     background:$decoration-color;
-    width: 500px;
-    height: 45px;
+    width: 350px;
+    height: 35px;
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 45px;
+    font-size: 15px;
+    line-height: 35px;
     text-align: center;
     color:$neutro-color;
-    margin: -15px 0px 20px 0px;
+    margin: -20px 0px 20px 0px;
 }
 
 .publicity__button{   
     margin: 0px 0px 20px 0px;
 }
 .publicity__search{
-    width: 80px;
-    height: 45px;  
+    width: 100px;
+    height: 35px;  
     border: none;
     background: #F2EBDF;
     justify-content: end;
     float: right;
-    margin: -65px 160px 20px 0px;
+    cursor: pointer;
+    margin: -55px 155px 50px 0px;
 }
 
 .publicity__buy{
@@ -129,4 +124,5 @@ h1{
     z-index: -1;
     width: 20px;
     height: 25px;
+
 }

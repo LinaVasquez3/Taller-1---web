@@ -10,7 +10,6 @@ body,html{
 
 .mainheader__logo{
     width: 180px;
-
 }
 
 .mainheader__nav{
@@ -27,21 +26,17 @@ body,html{
 .mainheader__link{
     position: absolute;
     font-family: $kactu-font;
-    font-size:45px;
-    line-height: 72px;
+    font-size:40px;
     text-align: center;
     color: $kactu-color;
     text-decoration: none;
-    top: 80px;
-    float: left;
-    left: 230px;
-    padding: 0px;
+    top:80px;
 }
 
 .mainnav__link{
     text-decoration: none;
     font-family: $primary-font;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 72px;
     color: $nav-color;
     margin: auto 25px;
@@ -56,8 +51,9 @@ body,html{
 }
 
 .mainheader__icon{
-    width: 85px;
-    padding-left: 255   px;
+    width: 70px;
+    padding-left: 270px;
+    margin-top: 10px;
     
 }
 
