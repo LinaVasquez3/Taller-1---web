@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.mainpublicity__mesagge{
+.publicity__mesagge{
     position: relative;
     width: 930px;
     height: 80px;
@@ -16,6 +16,39 @@
     color: #FFFFFF;
 }
 
-.mainpublicity__photo{
+.publicity__photo{
     width: 245%;
+}
+
+.publicity__text{
+    position: absolute;
+    right: 0px;
+}
+
+.publicity__textalign{
+    position: absolute;
+    right: 120px;
+ 
+}
+
+h1{
+    font-family: $primary-font;
+    font-weight: 250px;
+    font-size: 130px;
+    color: $neutro-color; 
+    white-space: nowrap;
+    margin-top:1000px;
+}
+
+h2 [type=25]{
+    font-family: $primary-font;
+    font-weight: 250px;
+    font-size: 80px;
+    color: $neutro-color;
+}
+
+h3 [type=30]{
+    font-family: $primary-font;
+    font-size: 80px;
+    color: $neutro-color;
 }

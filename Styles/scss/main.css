@@ -214,4 +214,36 @@ body, html {
 .mainpublicity__photo {
   width: 245%;
 }
+
+.publicity__text {
+  position: absolute;
+  right: 0px;
+}
+
+.publicity__textalign {
+  position: absolute;
+  right: 120px;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 250px;
+  font-size: 130px;
+  color: #F2EBDF;
+  white-space: nowrap;
+  margin-top: 1000px;
+}
+
+h2 [type="25"] {
+  font-family: "Poppins";
+  font-weight: 250px;
+  font-size: 80px;
+  color: #F2EBDF;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: 80px;
+  color: #F2EBDF;
+}
 /*# sourceMappingURL=main.css.map */
