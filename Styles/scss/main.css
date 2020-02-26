@@ -47,7 +47,7 @@
   display: flex;
 }
 
-.mainbanner__foto {
+.banner__foto {
   width: 50%;
 }
 
@@ -64,7 +64,7 @@
   z-index: -1;
 }
 
-.mainbanner__foto {
+.banner__foto {
   margin: left;
   margin-top: 40px;
 }
@@ -174,7 +174,7 @@ body, html {
   top: 100px;
 }
 
-.menu__hamburgesa {
+.mainheader__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,9 +195,18 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-image: url("/img/publicida.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  margin-top: -50px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.mainpublicity__mesagge {
+.publicity__mesagge {
   position: relative;
   width: 930px;
   height: 80px;
@@ -209,20 +218,26 @@ body, html {
   line-height: 35px;
   text-align: center;
   color: #FFFFFF;
-}
-
-.mainpublicity__photo {
-  width: 245%;
-}
-
-.publicity__text {
-  position: absolute;
-  right: 0px;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .publicity__textalign {
-  position: absolute;
-  right: 120px;
+  text-align: left;
+}
+
+.publicity__textalign div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 h1 {
@@ -231,19 +246,47 @@ h1 {
   font-size: 130px;
   color: #F2EBDF;
   white-space: nowrap;
-  margin-top: 1000px;
+  margin-top: 500px;
+  margin-bottom: 0px;
+  line-height: 127px;
+  margin-right: 150px;
+  text-align: end;
 }
 
-h2 [type="25"] {
+.publicity__typeh2 {
   font-family: "Poppins";
-  font-weight: 250px;
-  font-size: 80px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
   color: #F2EBDF;
+  margin: 10px;
 }
 
-h3 {
+.publicity__typeh3 {
   font-family: "Poppins";
-  font-size: 80px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: #F2EBDF;
+  margin: 10px 10px 0px;
+}
+
+.hr-vertical {
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  height: 49px;
+  width: 15px;
+}
+
+.publicity__typeh4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
   color: #F2EBDF;
 }
 /*# sourceMappingURL=main.css.map */
