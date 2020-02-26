@@ -1,0 +1,21 @@
+.publicity{
+    display: flex;
+}
+
+.mainpublicity__mesagge{
+    position: relative;
+    width: 930px;
+    height: 80px;
+    background: $primary-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mainpublicity__photo{
+    width: 245%;
+}
