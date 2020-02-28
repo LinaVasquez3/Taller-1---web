@@ -1,0 +1,27 @@
+.coleccion__shinecoleccion{
+    margin: 35px 0px 35px 450px;
+    display:flex;
+/*    padding: 0px;
+    justify-coleccion: space-between;*/
+}
+.coleccion__square{
+    width: 700px; 
+    height: 70px; 
+    line-height: 70px;
+    border: 2px solid $decoration-color;
+    text-align: center;
+    font-family: $specially-font;
+    color: $kactu-color;
+    font-size: 32px;
+}
+
+.coleccion__line{
+    height: 10px;
+    width: 110%;
+    color:$decoration-color;
+    border: none;
+    margin: -35px 0px 0px -30px;
+
+}
+
+
