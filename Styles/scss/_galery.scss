@@ -17,13 +17,17 @@
     float: right;
 }
 
-.galery__six{
-    width: 450px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
-}
 
-.galery__six1{
-    margin: 150px 0px 0px 0px;
-    width: 450px;
+.galery__photo{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+.galery__six{
+    width: 503px;
+    height: 450px;
+    margin:0px;
+    padding: 0px 0px;
 }

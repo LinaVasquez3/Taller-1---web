@@ -577,14 +577,22 @@ body, html {
   float: right;
 }
 
-.galery__six {
-  width: 450px;
-  margin: 0px 0px 0px 0px;
+.galery__photo {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 50px 0px 0px 0px;
   padding: 0px;
+  float: left;
 }
 
-.galery__six1 {
-  margin: 150px 0px 0px 0px;
-  width: 450px;
+.galery__six {
+  width: 503px;
+  height: 450px;
+  margin: 0px;
+  padding: 0px 0px;
 }
 /*# sourceMappingURL=main.css.map */
