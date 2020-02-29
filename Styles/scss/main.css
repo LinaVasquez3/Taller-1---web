@@ -423,6 +423,7 @@ body, html {
   border: 2px solid #434F73;
   text-align: center;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .content__bag1:hover {
@@ -483,6 +484,7 @@ body, html {
   border: 2px solid #434F73;
   text-align: center;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .content__bag2:hover {
@@ -543,9 +545,46 @@ body, html {
   border: 2px solid #434F73;
   text-align: center;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .content__bag3:hover {
   background: #e6ebfa;
+}
+
+.galery__mesagge {
+  position: relative;
+  width: 650px;
+  height: 89px;
+  background: #F2CEA2;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  float: right;
+}
+
+.galery__six {
+  width: 450px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.galery__six1 {
+  margin: 150px 0px 0px 0px;
+  width: 450px;
 }
 /*# sourceMappingURL=main.css.map */
