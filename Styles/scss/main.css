@@ -584,15 +584,14 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 50px 0px 0px 0px;
-  padding: 0px;
+  margin: 40px 0px 40px 115px;
   float: left;
 }
 
 .galery__six {
-  width: 503px;
-  height: 450px;
-  margin: 0px;
-  padding: 0px 0px;
+  width: 403px;
+  height: 350px;
+  margin: 0px 0px 0px 20px;
+  padding: 10px 0px;
 }
 /*# sourceMappingURL=main.css.map */
