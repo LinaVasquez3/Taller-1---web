@@ -553,7 +553,6 @@ body, html {
 }
 
 .galery__mesagge {
-  position: relative;
   width: 650px;
   height: 89px;
   background: #F2CEA2;
@@ -565,9 +564,6 @@ body, html {
   text-align: center;
   color: #FFFFFF;
   margin-top: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -584,8 +580,7 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 40px 0px 40px 115px;
-  float: left;
+  margin: 200px 0px 40px 115px;
 }
 
 .galery__six {
@@ -593,5 +588,12 @@ body, html {
   height: 350px;
   margin: 0px 0px 0px 20px;
   padding: 10px 0px;
+}
+
+.product__gif {
+  float: right;
+  margin: 50px 0px 50px 0px;
+  width: 750px;
+  height: 500px;
 }
 /*# sourceMappingURL=main.css.map */

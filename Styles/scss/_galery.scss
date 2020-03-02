@@ -1,5 +1,4 @@
 .galery__mesagge{
-    position: relative;
     width: 650px;
     height: 89px;
     background: $primary-color;
@@ -11,18 +10,15 @@
     text-align: center;
     color: #FFFFFF;
     margin-top:35px;
-    display: flex;
     justify-content: center;
     align-items: flex-end;
     float: right;
 }
-
-
 .galery__photo{
     flex-wrap: nowrap;
     flex-direction: row;
-    margin: 40px 0px 40px 115px;
-    float: left;
+    margin: 200px 0px 40px 115px;
+    
 }
 .galery__six{
     width: 403px;
