@@ -538,7 +538,7 @@ body, html {
 
 .content__bag3 {
   width: 350px;
-  height: 35px;
+  height: 40px;
   margin: 15px 0px 30px 0px;
   line-height: 35px;
   font-family: "Poppins";
@@ -732,6 +732,7 @@ body, html {
   font-size: 35px;
   color: #E59E8D;
   text-decoration: none;
+  margin: 50px 0px 0px 0px;
 }
 
 .block__desp {
@@ -741,9 +742,31 @@ body, html {
   font-size: 18px;
   line-height: 27px;
   color: #282727;
+  margin: 5px 0px 0px 0px;
 }
 
 /*block body*/
+.block__body input {
+  color: #E59E8D;
+}
+
+.block__body input::-webkit-input-placeholder {
+  color: #E59E8D;
+}
+
+.block__body input:-ms-input-placeholder {
+  color: #E59E8D;
+}
+
+.block__body input::-ms-input-placeholder {
+  color: #E59E8D;
+}
+
+.block__body input::placeholder {
+  color: #E59E8D;
+}
+
+/*block body1*/
 .block__body1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -762,8 +785,8 @@ body, html {
   width: 300px;
   height: 50px;
   border: 2px solid #E59E8D;
-  margin: 0px 15px 25px 0px;
-  text-align: center;
+  margin: 0px 25px 25px 0px;
+  padding: 0px 20px;
   color: #E59E8D;
 }
 
@@ -772,7 +795,38 @@ body, html {
   width: 300px;
   height: 50px;
   border: 2px solid #E59E8D;
-  text-align: center;
+  padding: 0px 20px;
   color: #E59E8D;
+}
+
+/*block body2*/
+.block__body2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block__email {
+  font-family: "Poppins";
+  height: 50px;
+  border: 2px solid #E59E8D;
+  padding: 0px 20px;
+  color: #E59E8D;
+}
+
+.block__message {
+  font-family: "Poppins";
+  height: 200px;
+  border: 2px solid #E59E8D;
+  color: #E59E8D;
+  margin: 25px 0px 25px 0px;
+  padding: 0px 20px;
 }
 /*# sourceMappingURL=main.css.map */

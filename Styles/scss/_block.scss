@@ -28,6 +28,7 @@
     font-size:35px;
     color: $decoration-color;
     text-decoration: none;
+    margin: 50px 0px 0px 0px;
 }
 
 .block__desp{
@@ -37,10 +38,22 @@
     font-size: 18px;
     line-height: 27px;
     color:$texto-color;
+    margin: 5px 0px 0px 0px;
 }
 
 /*block body*/
 
+.block__body{
+    & input{
+        color: $decoration-color;
+
+        &::placeholder{
+            color: $decoration-color;
+        }
+    }
+}
+
+/*block body1*/
 .block__body1{
     display: flex;
     flex-direction: row;
@@ -52,8 +65,8 @@
     width: 300px;
     height: 50px;    
     border: 2px solid $decoration-color;
-    margin: 0px 15px 25px 0px;
-    text-align: center;
+    margin: 0px 25px 25px 0px;
+    padding: 0px 20px;
     color: $decoration-color;
 }
 
@@ -62,6 +75,32 @@
     width: 300px;
     height: 50px;    
     border: 2px solid $decoration-color;
-    text-align: center;
+    padding: 0px 20px;
     color: $decoration-color;
+}
+
+/*block body2*/
+
+.block__body2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block__email{
+    font-family: $primary-font;
+    height: 50px;    
+    border: 2px solid $decoration-color;
+    padding: 0px 20px;
+    color: $decoration-color;
+}
+
+.block__message{
+    font-family: $primary-font;
+    height: 200px;    
+    border: 2px solid $decoration-color;
+    color: $decoration-color;
+    margin: 25px 0px 25px 0px;
+    padding: 0px 20px;
+
 }
