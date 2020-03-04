@@ -596,4 +596,52 @@ body, html {
   width: 750px;
   height: 500px;
 }
+
+.product__image {
+  background: #E59E8D;
+}
+
+.product__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 30px;
+  color: #282727;
+  margin: 120px 0px 0px 350px;
+}
+
+.product__line {
+  height: 10px;
+  width: 55%;
+  background-color: #E59E8D;
+  border: none;
+  margin: 20px 0px 0px 240px;
+}
+
+.product__h3 {
+  font-family: "Meddon";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  color: #282727;
+  margin: -58px 0px 0px 350px;
+}
+
+.product__tips {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 135%;
+  padding: 5px 0px;
+  margin: 0px 100px 0px 100px;
+  -ms-flex-line-pack: justify;
+      align-content: justify;
+}
 /*# sourceMappingURL=main.css.map */
