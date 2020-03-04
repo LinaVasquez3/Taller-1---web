@@ -1,12 +1,15 @@
 .product__gif {
-    float: right;
-    margin: 50px 0px 50px 0px;
-    width: 750px;
+    width: 760px;
     height: 500px;
+    float: right;
+    margin: -50px 0px 0px 0px;
 }
 .product__image{
-    background: $decoration-color;
-
+    border: 2px solid $decoration-color;
+    width: 800px;
+    height: 490px;
+    float: right;
+    margin: 20px 0px 50px 0px;
 }
 
 .product__text{
@@ -20,7 +23,7 @@
     font-weight: 250;
     font-size: 30px;
     color: $texto-color;  
-    margin:120px 0px 0px 350px;
+    margin:60px 0px 0px 350px;
 }
 
 .product__line {
@@ -28,7 +31,7 @@
     width: 55%;
     background-color:$decoration-color;
     border: none;
-    margin: 20px 0px 0px 240px;
+    margin: 20px 0px 0px 262px;
 }
 
 .product__h3 {
@@ -45,8 +48,8 @@
     font-style: normal;
     font-weight: 250;
     font-size: 20px;
-    line-height: 135%;
+    line-height: 130%;
     padding: 5px 0px;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 45px 0px 80px;
     align-content: justify;
 }
