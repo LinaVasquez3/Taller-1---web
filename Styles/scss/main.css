@@ -580,7 +580,7 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 200px 0px 80px 115px;
+  margin: 200px 0px 20px 115px;
 }
 
 .galery__six {
@@ -590,25 +590,28 @@ body, html {
   padding: 10px 0px;
 }
 
+.product__main {
+  padding: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__photo {
+  float: right;
+  border: 2px solid #E59E8D;
+  width: 800px;
+  height: 540px;
+}
+
 .product__gif {
   width: 760px;
   height: 500px;
   float: right;
-  margin: -50px 0px 0px 0px;
-}
-
-.product__image {
-  border: 2px solid #E59E8D;
-  width: 800px;
-  height: 490px;
-  float: right;
-  margin: 20px 0px 50px 0px;
 }
 
 .product__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  float: left;
 }
 
 .product__h2 {
@@ -617,7 +620,7 @@ body, html {
   font-weight: 250;
   font-size: 30px;
   color: #282727;
-  margin: 60px 0px 0px 350px;
+  margin: 80px 0px 0px 350px;
 }
 
 .product__line {
@@ -647,5 +650,37 @@ body, html {
   margin: 0px 45px 0px 80px;
   -ms-flex-line-pack: justify;
       align-content: justify;
+  padding: 10px 0px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__kactucontact {
+  margin: 0px 0px 35px 320px;
+  /*    padding: 0px;
+    justify-contact: space-between;*/
+}
+
+.contact__square {
+  width: 700px;
+  height: 70px;
+  line-height: 70px;
+  border: 2px solid #434F73;
+  text-align: center;
+  font-family: "Meddon";
+  color: #434F73;
+  font-size: 32px;
+}
+
+.contact__line {
+  height: 10px;
+  width: 110%;
+  background-color: #F2CEA2;
+  border: none;
+  margin: -35px 0px 0px -30px;
 }
 /*# sourceMappingURL=main.css.map */

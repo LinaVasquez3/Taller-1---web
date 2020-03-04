@@ -1,21 +1,24 @@
+.product__main{
+    padding: 50px 0px;
+    display: flex;
+}
+
+.product__photo{
+    float: right;
+    border: 2px solid $decoration-color;
+    width: 800px;
+    height: 540px;
+}
+
 .product__gif {
     width: 760px;
     height: 500px;
     float: right;
-    margin: -50px 0px 0px 0px;
-}
-.product__image{
-    border: 2px solid $decoration-color;
-    width: 800px;
-    height: 490px;
-    float: right;
-    margin: 20px 0px 50px 0px;
 }
 
 .product__text{
-    display: flex;
+    float: left;
 }
-
 
 .product__h2 {
     font-family: $primary-font;
@@ -23,7 +26,7 @@
     font-weight: 250;
     font-size: 30px;
     color: $texto-color;  
-    margin:60px 0px 0px 350px;
+    margin:80px 0px 0px 350px;
 }
 
 .product__line {
@@ -52,4 +55,5 @@
     padding: 5px 0px;
     margin: 0px 45px 0px 80px;
     align-content: justify;
+    padding: 10px 0px;
 }

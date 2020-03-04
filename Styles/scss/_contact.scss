@@ -1,11 +1,15 @@
-.coleccion__shinecoleccion{
-    margin: 35px 0px 35px 450px;
-    display:flex;
-/*    padding: 0px;
-    justify-coleccion: space-between;*/
+.contact{
+    display: flex;
 }
 
-.coleccion__square{
+.contact__kactucontact{
+    margin: 0px 0px 35px 320px;
+    
+/*    padding: 0px;
+    justify-contact: space-between;*/
+}
+
+.contact__square{
     width: 700px; 
     height: 70px; 
     line-height: 70px;
@@ -16,12 +20,10 @@
     font-size: 32px;
 }
 
-.coleccion__line{
+.contact__line{
     height: 10px;
     width: 110%;
     background-color: $primary-color;
     border: none;
     margin: -35px 0px 0px -30px;
 }
-
-
