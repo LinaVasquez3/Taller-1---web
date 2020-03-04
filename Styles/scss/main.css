@@ -607,7 +607,6 @@ body, html {
 .product__gif {
   width: 760px;
   height: 500px;
-  float: right;
 }
 
 .product__text {
@@ -660,7 +659,7 @@ body, html {
 }
 
 .contact__kactucontact {
-  margin: 0px 0px 35px 320px;
+  margin: 0px 0px 30px 400px;
   /*    padding: 0px;
     justify-contact: space-between;*/
 }
@@ -678,9 +677,32 @@ body, html {
 
 .contact__line {
   height: 10px;
-  width: 110%;
+  width: 216%;
   background-color: #F2CEA2;
   border: none;
-  margin: -35px 0px 0px -30px;
+  margin: -35px 0px 0px -400px;
+}
+
+.block__main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block__logo {
+  width: 180px;
+}
+
+.block__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #E59E8D;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
