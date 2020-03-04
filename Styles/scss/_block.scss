@@ -21,7 +21,7 @@
     width: 45%;
 }
 
-.block__name{
+.block__contact{
     font-family: $primary-font;
     font-style: normal;
     font-weight: bold;
@@ -40,3 +40,28 @@
 }
 
 /*block body*/
+
+.block__body1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block__name{
+    font-family: $primary-font;
+    width: 300px;
+    height: 50px;    
+    border: 2px solid $decoration-color;
+    margin: 0px 15px 25px 0px;
+    text-align: center;
+    color: $decoration-color;
+}
+
+.block__number{
+    font-family: $primary-font;
+    width: 300px;
+    height: 50px;    
+    border: 2px solid $decoration-color;
+    text-align: center;
+    color: $decoration-color;
+}
