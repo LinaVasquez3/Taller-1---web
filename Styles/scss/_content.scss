@@ -12,6 +12,10 @@
     flex-direction: column;
     justify-content: center;
     margin: 0px 25px 0px 0px;
+
+    & button{
+        background: none;
+    }
 }
 
 .content__img1{
@@ -76,6 +80,10 @@
     flex-direction: column;
     justify-content: center;
     margin: 0px 25px 0px 0px;
+
+    & button{
+        background: none;
+    }
 }
 
 .content__img2{
@@ -139,6 +147,10 @@
     flex-direction: column;
     justify-content: center;
     margin: 0px 25px 0px 0px;
+
+    & button{
+        background: none;
+    }
 }
 .content__img3{
     width: 350px;

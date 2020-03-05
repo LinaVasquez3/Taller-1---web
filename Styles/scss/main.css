@@ -386,6 +386,10 @@ body, html {
   margin: 0px 25px 0px 0px;
 }
 
+.content__strawberry button {
+  background: none;
+}
+
 .content__img1 {
   width: 350px;
 }
@@ -461,6 +465,10 @@ body, html {
   margin: 0px 25px 0px 0px;
 }
 
+.content__orange button {
+  background: none;
+}
+
 .content__img2 {
   width: 350px;
 }
@@ -534,6 +542,10 @@ body, html {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0px 25px 0px 0px;
+}
+
+.content__honey button {
+  background: none;
 }
 
 .content__img3 {
@@ -736,7 +748,7 @@ body, html {
 .contact__line {
   height: 10px;
   width: 216%;
-  background-color: #F2CEA2;
+  background-color: #E59E8D;
   border: none;
   margin: -35px 0px 0px -400px;
 }
@@ -798,7 +810,7 @@ body, html {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 30px;
   color: #282727;
   margin: 5px 0px 0px 0px;
 }
@@ -886,5 +898,27 @@ body, html {
   color: #E59E8D;
   margin: 25px 0px 25px 0px;
   padding: 0px 20px;
+}
+
+/*send*/
+.block__finish button {
+  background: none;
+  color: #E59E8D;
+}
+
+.block__send {
+  width: 350px;
+  height: 35px;
+  margin: 0px 0px 20px 0px;
+  line-height: 35px;
+  font-family: "Poppins";
+  border: 2px solid #E59E8D;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.block__send:hover {
+  background: #f5edeb;
 }
 /*# sourceMappingURL=main.css.map */

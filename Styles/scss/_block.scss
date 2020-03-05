@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 30px;
     color:$texto-color;
     margin: 5px 0px 0px 0px;
 }
@@ -102,5 +102,28 @@
     color: $decoration-color;
     margin: 25px 0px 25px 0px;
     padding: 0px 20px;
+}
 
+/*send*/
+.block__finish{
+    & button{
+        background: none;
+        color: $decoration-color;
+    }
+}
+
+.block__send{
+    width: 350px;
+    height: 35px;
+    margin: 0px 0px 20px 0px;
+    line-height: 35px;
+    font-family: $primary-font;
+    border: 2px solid $decoration-color;
+    text-align: center;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+.block__send:hover{
+    background: rgb(245, 237, 235);
 }
