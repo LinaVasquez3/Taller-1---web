@@ -969,25 +969,120 @@ body, html {
       -ms-flex-pack: center;
           justify-content: center;
   background: #faf3f3;
+  padding: 25px 0px;
 }
 
-.footer__product {
-  margin: 0px 60px 0px 0px;
+/*product*/
+.footer__politics {
+  margin: 0px 200px 0px 0px;
 }
 
 .footer__ph2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
   color: #282727;
 }
 
-.footer__service {
-  margin: 0px 60px 0px 0px;
+.footer__ph3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
 }
 
+.footer__ph4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+}
+
+.footer__ph5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+  margin: 0px auto;
+}
+
+/*service*/
+.footer__service {
+  margin: 0px 200px 0px 0px;
+}
+
+.footer__sh2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #282727;
+}
+
+.footer__sh3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+}
+
+.footer__sh4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+}
+
+.footer__sh5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+  margin: 0px auto;
+}
+
+/*contact*/
 .footer__contact {
-  margin: 0px 60px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.footer__ch2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #282727;
+}
+
+.footer__ch3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+}
+
+.footer__ch4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+}
+
+.footer__ch5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #282727;
+  margin: 0px auto;
 }
 /*# sourceMappingURL=main.css.map */
