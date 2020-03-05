@@ -330,13 +330,18 @@ body, html {
   height: 25px;
 }
 
-.coleccion__shinecoleccion {
-  margin: 35px 0px 35px 450px;
+.coleccion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*    padding: 0px;
-    justify-coleccion: space-between;*/
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
 }
 
 .coleccion__square {
@@ -726,12 +731,14 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.contact__kactucontact {
-  margin: 0px 0px 30px 400px;
-  /*    padding: 0px;
-    justify-contact: space-between;*/
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
 }
 
 .contact__square {
@@ -746,11 +753,14 @@ body, html {
 }
 
 .contact__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 10px;
-  width: 216%;
+  width: 110%;
   background-color: #E59E8D;
   border: none;
-  margin: -35px 0px 0px -400px;
+  margin: -35px 0px 0px -30px;
 }
 
 .block__main {
@@ -920,5 +930,64 @@ body, html {
 
 .block__send:hover {
   background: #f5edeb;
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
+  background: #faf3f3;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*footer body*/
+.footer__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #faf3f3;
+}
+
+.footer__product {
+  margin: 0px 60px 0px 0px;
+}
+
+.footer__ph2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #282727;
+}
+
+.footer__service {
+  margin: 0px 60px 0px 0px;
+}
+
+.footer__contact {
+  margin: 0px 60px 0px 0px;
 }
 /*# sourceMappingURL=main.css.map */

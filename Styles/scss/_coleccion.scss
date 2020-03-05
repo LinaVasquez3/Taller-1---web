@@ -1,8 +1,10 @@
-.coleccion__shinecoleccion{
-    margin: 35px 0px 35px 450px;
-    display:flex;
-/*    padding: 0px;
-    justify-coleccion: space-between;*/
+
+
+.coleccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px;
 }
 
 .coleccion__square{
