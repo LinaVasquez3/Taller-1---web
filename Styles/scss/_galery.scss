@@ -9,20 +9,31 @@
     line-height: 35px;
     text-align: center;
     color: #FFFFFF;
-    margin-top:35px;
     justify-content: center;
     align-items: flex-end;
-    float: right;
 }
-.galery__photo{
-    flex-wrap: nowrap;
+
+.galery__main{
+    display: flex;
+    margin: 50px auto;
+}
+
+/*.galery{
+    display: flex;
     flex-direction: row;
-    margin: 200px 0px 20px 115px;
-    
+    justify-content: center;
+    padding: 25px 100px;
+}*/
+
+.galery__photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 150px;
 }
+
 .galery__six{
     width: 403px;
     height: 350px;
-    margin:0px 0px 0px 20px;
-    padding: 10px 0px;
+    margin: 0px;
 }

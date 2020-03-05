@@ -1,15 +1,23 @@
-
-
 .content__shinepalette{
     display: flex;
-    align-content: justify;
-    justify-content: space-around;
-    padding: 0px 120px;
+    justify-content: center;
+    flex-direction: row;
 }
+
+
  /*strawberry*/
+
+.content__strawberry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 25px 0px 0px;
+}
+
 .content__img1{
     width: 350px;
 }
+
 .content__tittle1{
     font-family: $primary-font;
     font-size: 25px;
@@ -18,6 +26,7 @@
     font-size: 25px;
     margin: 0px 0px 0px 0px;
 }
+
 .content__icon1{
     width:32px;
     float: right;
@@ -28,27 +37,27 @@
     font-size: 19px;
     font-style: normal;
     font-weight: 250;
-    margin: -6px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .content__des1{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
 }
 .content__price1{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin: -30px 0px 30px 0px;
+    margin: 0px 0px 0px 0px;
     float: right;
 }
 .content__bag1{
     width: 350px;
     height: 35px;
-    margin: 15px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     line-height: 35px;
     font-family: $primary-font;
     border: 2px solid $kactu-color;
@@ -61,6 +70,13 @@
 }
 
 /*Orange*/
+
+.content__orange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 25px 0px 0px;
+}
 
 .content__img2{
     width: 350px;
@@ -84,27 +100,27 @@
     font-size: 19px;
     font-style: normal;
     font-weight: 250;
-    margin: -6px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .content__des2{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .content__price2{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin: -30px 0px 30px 0px;
+    margin: 5px 0px 0px 0px;
     float: right;
 }
 .content__bag2{
     width: 350px;
     height: 35px;
-    margin: 15px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     line-height: 35px;
     font-family: $primary-font;
     border: 2px solid $kactu-color;
@@ -118,6 +134,12 @@
 
 /*Honey*/
 
+.content__honey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 25px 0px 0px;
+}
 .content__img3{
     width: 350px;
 }
@@ -139,28 +161,28 @@
     font-size: 19px;
     font-style: normal;
     font-weight: 250;
-    margin: -6px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .content__des3{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .content__price3{
     font-family: $primary-font;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin: -30px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     float: right;
 }
 
 .content__bag3{
     width: 350px;
-    height: 40px;
-    margin: 15px 0px 30px 0px;
+    height: 35px;
+    margin: 0px 0px 10px 0px;
     line-height: 35px;
     font-family: $primary-font;
     border: 2px solid $kactu-color;
