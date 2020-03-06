@@ -1,15 +1,67 @@
 .publicity{
     display: flex;
-    background-image: url("/img/publicida.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     background-position: center center;
-    margin-top: -40px;
-    justify-content: flex-end;
+    padding: 50px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    
+    @media (max-width: width 414px){
+        display: flex;
+        max-width: 100%;
+        height: auto;
+    }
+}
+/*
+.slider{
+}
+.slider__strip{
+
+}
+.slider__img{
+
+    // background-size: cover;
+    // background-color: red;
+    // background-image: url(/images/perro-beso-1024x576.webp);
+}*/
+
+.publicity__button{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 25px;
+    margin-top: 100px;
+    width: 100px;
+    justify-content: space-between;
+    z-index: 2;
+}
+.publicity__button1{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border:none;
 }
 
+.publicity__button2{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border:none;
+}
 
+.publicity__img{
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    transition: transform .5s ease-in-out;
+}
+
+.publicity__imagen{
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+/*
 .publicity__mesagge{
     position: relative;
     width: 788px;
@@ -124,4 +176,4 @@
     width: 20px;
     height: 25px;
 
-}
+}*/
