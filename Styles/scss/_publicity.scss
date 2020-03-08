@@ -6,24 +6,12 @@
     overflow: hidden;
     position: relative;
     
-    @media (max-width: width 414px){
+    @media (max-width: $responsive){
+        position: relative;
         display: flex;
-        max-width: 100%;
-        height: auto;
+        padding: 0px 0px 0px 0px;
     }
 }
-/*
-.slider{
-}
-.slider__strip{
-
-}
-.slider__img{
-
-    // background-size: cover;
-    // background-color: red;
-    // background-image: url(/images/perro-beso-1024x576.webp);
-}*/
 
 .publicity__button{
     display: flex;
@@ -34,12 +22,26 @@
     width: 100px;
     justify-content: space-between;
     z-index: 2;
+
+    @media (max-width: $responsive) {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-top: 15px;
+        width: 50px;
+    }
 }
 .publicity__button1{
     border-radius: 50%;
     width: 20px;
     height: 20px;
     border:none;
+
+    @media (max-width: $responsive) {
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
 }
 
 .publicity__button2{
@@ -47,12 +49,22 @@
     width: 20px;
     height: 20px;
     border:none;
+
+    @media (max-width: $responsive) {
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
 }
 
 .publicity__img{
     padding: 50px 0px 0px 0px;
     display: flex;
     transition: transform .5s ease-in-out;
+
+    @media (max-width: $responsive) {
+        padding: 20px 0px 0px 0px;
+    }
 }
 
 .publicity__imagen{
@@ -60,120 +72,3 @@
     flex-shrink: 0;
     width: 100%;
 }
-
-/*
-.publicity__mesagge{
-    position: relative;
-    width: 788px;
-    height: 89px;
-    background: $primary-color;
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top:100px;
-    display: flex;
-    justify-content: center;
-}
-
-.publicity__textalign{
-    text-align: left;
-    & div{
-        display: flex;
-    }
-}
-
-.publicity__typeh1{
-    font-family: $primary-font;
-    font-weight: bold;
-    font-size: 85px;
-    color: $neutro-color; 
-    white-space: nowrap;
-    margin-top:500px;
-    margin-bottom: 0px;
-    line-height: 75px;
-    margin-right: 150px;
-    text-align: end;
-}
-
-.publicity__typeh2{
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: $neutro-color;
-    margin: 10px 15px 0px 0px;
-}
-
-.publicity__typeh3{
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: $neutro-color;
-    margin: 10px 10px 0px 15px;
-}
-
-.hr-vertical{
-    margin-top: 25px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border:none;
-    height: 35px;
-    width:15px;   
-}
-
-.publicity__typeh4{
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    text-align: center;
-    color: $neutro-color;
-    background: $decoration-color;
-    margin-top: 25px;
-    width: 210px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 155px;
-}
-
-.publicity__typeh5{
-    background:$decoration-color;
-    width: 350px;
-    height: 35px;
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 35px;
-    text-align: center;
-    color:$neutro-color;
-    margin: -10px 0px 20px 0px;
-}
-
-.publicity__button{   
-    margin: 0px 0px 20px 0px;
-}
-.publicity__search{
-    width: 100px;
-    height: 35px;  
-    border: none;
-    background: #F2EBDF;
-    justify-content: end;
-    float: right;
-    cursor: pointer;    
-    margin: -55px 155px 50px 0px;
-}
-
-.publicity__buy{
-    justify-content: center;
-    z-index: -1;
-    width: 20px;
-    height: 25px;
-
-}*/
