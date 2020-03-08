@@ -1,5 +1,3 @@
-
-
 .coleccion{
     display: flex;
     flex-direction: row;
@@ -16,6 +14,13 @@
     font-family: $specially-font;
     color: $kactu-color;
     font-size: 32px;
+    
+        @media (max-width: $responsive) {
+            font-size: 20px;
+            width: 350px; 
+            height: 60px; 
+            line-height: 60px;
+        }
 }
 
 .coleccion__line{
@@ -24,6 +29,11 @@
     background-color: $primary-color;
     border: none;
     margin: -35px 0px 0px -30px;
+
+    @media (max-width: $responsive) {
+        margin: -32px 0px 0px -20px;
+        height: 8px;
+    }
 }
 
 

@@ -615,12 +615,28 @@ body, html {
   font-size: 32px;
 }
 
+@media (max-width: 414px) {
+  .coleccion__square {
+    font-size: 20px;
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
 .coleccion__line {
   height: 10px;
   width: 110%;
   background-color: #F2CEA2;
   border: none;
   margin: -35px 0px 0px -30px;
+}
+
+@media (max-width: 414px) {
+  .coleccion__line {
+    margin: -32px 0px 0px -20px;
+    height: 8px;
+  }
 }
 
 .content__shinepalette {
