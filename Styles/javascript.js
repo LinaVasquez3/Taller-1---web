@@ -1,3 +1,6 @@
+/*Interacción publicidad*/
+
+
 var btnRight = document.querySelector('.publicity__button2');
 var btnLeft = document.querySelector('.publicity__button1');
 var strip = document.querySelector('.publicity__img');

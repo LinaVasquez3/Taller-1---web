@@ -11,6 +11,13 @@
   margin: 20px 0px;
 }
 
+@media (max-width: 1000px) {
+  .mainheader__search {
+    margin: 20px 0px 0px 66px;
+    float: none;
+  }
+}
+
 .mainheader__input {
   font-family: "Poppins";
   font-size: 12px;
@@ -24,6 +31,16 @@
   margin: 20px 10px;
 }
 
+@media (max-width: 1000px) {
+  .mainheader__input {
+    width: 0px;
+    height: 0px;
+    margin: 0px 0px;
+    font-size: 0px;
+    float: none;
+  }
+}
+
 .mainheader__lupa {
   width: 20px;
   height: 25px;
@@ -34,6 +51,12 @@
 
 .mainheader__button {
   margin-top: 10 px;
+}
+
+@media (max-width: 1000px) {
+  .mainheader__button {
+    margin-top: 10px;
+  }
 }
 
 .banner {
@@ -113,6 +136,132 @@ hr {
   margin: 40px 0px 0px 140px;
 }
 
+/*body,html{
+    margin:0px;
+}
+.mainheader{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background: #faf3f3;
+}
+
+.mainheader__logo{
+    width: 180px;
+}
+
+
+/*menu hambuerguer 
+.mainheader__nav{
+    display: flex;
+    width: 95%;
+    margin:auto;
+    justify-content: space-around;
+    
+    &--mobile {
+        position: absolute;
+        display: flex !important;
+        flex-direction: column;
+        background: black;
+        color: white;
+        width: 500px;
+        height: 50px;
+    }
+}
+
+.desaparece {
+    @media (max-width: $responsive) {
+        display: none;
+    }
+}
+
+
+.hamburguerbtn{
+    background: none;
+    width: 60px;
+    height: 50px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    border: none;
+    align-items: stretch;
+    outline: none;
+
+    span {
+        height: 6px;
+        width: 100%;
+        background-color: black;
+    }
+
+    @media(max-width: $responsive){
+        display: flex;
+        position: relative;
+    }
+}
+
+.mainheader__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media(max-width: $responsive){
+        display: none;
+    }
+}
+
+
+.mainheader__container{
+    // width: 25%;
+    display: flex;
+    align-items: center;
+    
+    .mainheader__link{
+        position: relative;
+        font-family: $kactu-font;
+        font-size:40px;
+        text-align: center;
+        color: $kactu-color;
+        text-decoration: none;  
+    }
+    
+    @media (max-width: $responsive) {
+        width: 500px;
+        justify-content: space-around;
+    }
+}
+
+.mainheader__body{
+    margin: 0px 35px 0px 0px;
+}
+
+
+
+.mainnav__link{
+    text-decoration: none;
+    font-family: $primary-font;
+    font-size: 14px;
+    color: $nav-color;
+    margin: auto 20px;
+    left: 250px;
+    top: 100px;
+}
+
+/*hamburguer
+
+
+
+
+
+
+
+.mainheader__icon{
+    width: 70px;
+    padding-left: 270px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}*/
 body, html {
   margin: 0px;
 }
@@ -130,43 +279,49 @@ body, html {
   width: 180px;
 }
 
-.mainheader__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 95%;
-  margin: auto;
+@media (max-width: 1000px) {
+  .mainheader__logo {
+    width: 120px;
+    margin: 0px 0px 0px 50px;
+  }
+}
+
+.hamburguerbtn {
+  background: none;
+  width: 60px;
+  height: 50px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: none;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  outline: none;
 }
 
-.mainheader__container {
-  width: 300px;
+.hamburguerbtn span {
+  height: 6px;
+  width: 100%;
+  background-color: black;
 }
 
-.mainheader__link {
-  position: absolute;
-  font-family: "Shadows Into Light";
-  font-size: 40px;
-  text-align: center;
-  color: #434F73;
-  text-decoration: none;
-  top: 80px;
+@media (max-width: 1000px) {
+  .hamburguerbtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
 }
 
-.mainnav__link {
-  text-decoration: none;
-  font-family: "Poppins";
-  font-size: 14px;
-  line-height: 72px;
-  color: #747373;
-  margin: auto 20px;
-  left: 250px;
-  top: 100px;
-}
-
-.mainheader__menu {
+.mainheader__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,11 +333,81 @@ body, html {
           align-items: center;
 }
 
+@media (max-width: 1000px) {
+  .mainheader__nav {
+    display: none;
+  }
+}
+
+.mainheader__nav--mobile {
+  position: absolute;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: black;
+  color: white;
+  height: 250px;
+  top: 120px;
+  left: 10px;
+  margin: 0px;
+}
+
+.mainheader__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainheader__container .mainheader__link {
+  font-family: "Shadows Into Light";
+  font-size: 40px;
+  color: #434F73;
+  text-decoration: none;
+  margin: 0px 50px 0px -20px;
+}
+
+@media (max-width: 1000px) {
+  .mainheader__container .mainheader__link {
+    font-size: 35px;
+    margin: 0px -20px 0px -20px;
+  }
+}
+
+.mainnav__link {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #747373;
+  margin: auto 20px;
+  left: 250px;
+  top: 100px;
+}
+
+.mainheader__body {
+  margin: 0px 35px 0px 0px;
+}
+
 .mainheader__icon {
   width: 70px;
   padding-left: 270px;
   margin-top: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .mainheader__icon {
+    float: none;
+    width: 50px;
+    padding-left: 80px;
+    margin-top: 10px;
+  }
 }
 
 .publicity {
@@ -715,7 +940,7 @@ body, html {
 }
 
 .galery__six {
-  width: 350px;
+  width: 330px;
   height: 310px;
   margin: 0px;
 }

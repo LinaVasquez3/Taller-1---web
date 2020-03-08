@@ -1,4 +1,4 @@
-body,html{
+/*body,html{
     margin:0px;
 }
 .mainheader{
@@ -12,43 +12,110 @@ body,html{
     width: 180px;
 }
 
+
+/*menu hambuerguer 
 .mainheader__nav{
     display: flex;
     width: 95%;
     margin:auto;
+    justify-content: space-around;
+    
+    &--mobile {
+        position: absolute;
+        display: flex !important;
+        flex-direction: column;
+        background: black;
+        color: white;
+        width: 500px;
+        height: 50px;
+    }
+}
+
+.desaparece {
+    @media (max-width: $responsive) {
+        display: none;
+    }
+}
+
+
+.hamburguerbtn{
+    background: none;
+    width: 60px;
+    height: 50px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
     justify-content: space-between;
-}
+    border: none;
+    align-items: stretch;
+    outline: none;
 
-.mainheader__container{
-    width: 300px;
-}
+    span {
+        height: 6px;
+        width: 100%;
+        background-color: black;
+    }
 
-.mainheader__link{
-    position: absolute;
-    font-family: $kactu-font;
-    font-size:40px;
-    text-align: center;
-    color: $kactu-color;
-    text-decoration: none;
-    top:80px;
-}
-
-.mainnav__link{
-    text-decoration: none;
-    font-family: $primary-font;
-    font-size: 14px;
-    line-height: 72px;
-    color: $nav-color;
-    margin: auto 20px;
-    left: 250px;
-    top: 100px;
+    @media(max-width: $responsive){
+        display: flex;
+        position: relative;
+    }
 }
 
 .mainheader__menu{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: $responsive){
+        display: none;
+    }
 }
+
+
+.mainheader__container{
+    // width: 25%;
+    display: flex;
+    align-items: center;
+    
+    .mainheader__link{
+        position: relative;
+        font-family: $kactu-font;
+        font-size:40px;
+        text-align: center;
+        color: $kactu-color;
+        text-decoration: none;  
+    }
+    
+    @media (max-width: $responsive) {
+        width: 500px;
+        justify-content: space-around;
+    }
+}
+
+.mainheader__body{
+    margin: 0px 35px 0px 0px;
+}
+
+
+
+.mainnav__link{
+    text-decoration: none;
+    font-family: $primary-font;
+    font-size: 14px;
+    color: $nav-color;
+    margin: auto 20px;
+    left: 250px;
+    top: 100px;
+}
+
+/*hamburguer
+
+
+
+
+
+
 
 .mainheader__icon{
     width: 70px;
@@ -56,5 +123,122 @@ body,html{
     margin-top: 10px;
     cursor: pointer;
     
+}*/
+
+
+
+
+
+body,html{
+    margin:0px;
+}
+.mainheader{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background: #faf3f3;
 }
 
+.mainheader__logo{
+    width: 180px;
+
+    @media (max-width: $responsive) {
+        width: 120px;
+        margin: 0px 0px 0px 50px;
+    }
+}
+
+.hamburguerbtn{
+    background: none;
+    width: 60px;
+    height: 50px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    border: none;
+    align-items: stretch;
+    outline: none;
+
+    span {
+        height: 6px;
+        width: 100%;
+        background-color: black;
+    }
+
+    @media(max-width: $responsive){
+        display: flex;
+        position: relative;
+    }
+}
+
+.mainheader__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media(max-width: $responsive){
+        display: none;
+    }
+}
+
+.mainheader__nav--mobile {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    background: black;
+    color: white;
+    height: 250px;
+    top: 120px;
+    left: 10px;
+    margin: 0px;
+}
+
+
+.mainheader__container{
+    // width: 25%;
+    display: flex;
+    align-items: center;
+    
+    .mainheader__link{
+        font-family: $kactu-font;
+        font-size:40px;
+        color: $kactu-color;
+        text-decoration: none;  
+        margin: 0px 50px 0px -20px;
+
+        @media (max-width:$responsive) {
+            font-size: 35px;
+            margin: 0px -20px 0px -20px;
+        }
+    }
+}
+
+
+.mainnav__link{
+    text-decoration: none;
+    font-family: $primary-font;
+    font-size: 14px;
+    color: $nav-color;
+    margin: auto 20px;
+    left: 250px;
+    top: 100px;
+}
+
+.mainheader__body{
+    margin: 0px 35px 0px 0px;
+}
+
+.mainheader__icon{
+    width: 70px;
+    padding-left: 270px;
+    margin-top: 10px;
+    cursor: pointer;
+
+    @media (max-width: $responsive) {
+        float: none;
+        width: 50px;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+}
