@@ -144,7 +144,7 @@ body,html{
 
     @media (max-width: $responsive) {
         width: 120px;
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 30px;
     }
 }
 
@@ -205,7 +205,7 @@ body,html{
         font-size:40px;
         color: $kactu-color;
         text-decoration: none;  
-        margin: 0px 50px 0px -20px;
+        margin: 0px 50px 0px 0px;
 
         @media (max-width:$responsive) {
             font-size: 35px;
@@ -225,9 +225,6 @@ body,html{
     top: 100px;
 }
 
-.mainheader__body{
-    margin: 0px 35px 0px 0px;
-}
 
 .mainheader__icon{
     width: 70px;
@@ -238,7 +235,7 @@ body,html{
     @media (max-width: $responsive) {
         float: none;
         width: 50px;
-        padding-left: 80px;
+        padding-left: 100px;
         margin-top: 10px;
     }
 }

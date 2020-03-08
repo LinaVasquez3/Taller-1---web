@@ -11,10 +11,12 @@
   margin: 20px 0px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__search {
-    margin: 20px 0px 0px 66px;
+    margin: 20px 0px 0px 95px;
     float: none;
+    width: 55px;
+    height: 35px;
   }
 }
 
@@ -31,11 +33,11 @@
   margin: 20px 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__input {
     width: 0px;
     height: 0px;
-    margin: 0px 0px;
+    margin: 0px 30px;
     font-size: 0px;
     float: none;
   }
@@ -49,11 +51,18 @@
           justify-content: center;
 }
 
+@media (max-width: 414px) {
+  .mainheader__lupa {
+    width: 16px;
+    height: 20px;
+  }
+}
+
 .mainheader__button {
   margin-top: 10 px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__button {
     margin-top: 10px;
   }
@@ -70,8 +79,21 @@
   margin-top: 40px;
 }
 
+@media (max-width: 414px) {
+  .banner__foto {
+    width: 60%;
+    margin-top: 10px;
+  }
+}
+
 .banner__textalign {
   margin-left: 300px;
+}
+
+@media (max-width: 414px) {
+  .banner__textalign {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 .banner__text {
@@ -81,6 +103,17 @@
   height: 460px;
   background-color: #F2CEA2;
   z-index: -1;
+}
+
+@media (max-width: 414px) {
+  .banner__text {
+    position: absolute;
+    right: 0px;
+    width: 260px;
+    height: 140px;
+    background-color: #F2CEA2;
+    z-index: -1;
+  }
 }
 
 .banner__h3 {
@@ -93,6 +126,13 @@
   margin: 120px 135px 0px 0px;
 }
 
+@media (max-width: 414px) {
+  .banner__h3 {
+    margin: 30px 15px 15px 0px;
+    font-size: 14px;
+  }
+}
+
 .banner__h2 {
   font-family: "Meddon";
   font-style: normal;
@@ -100,6 +140,14 @@
   font-size: 42px;
   color: #282727;
   margin: -54px 0px 0px 170px;
+}
+
+@media (max-width: 414px) {
+  .banner__h2 {
+    margin: -20px 0px 10px 115px;
+    font-size: 15px;
+    z-index: -1px;
+  }
 }
 
 .banner__h4 {
@@ -111,6 +159,14 @@
   line-height: 50px;
   text-align: center;
   margin: 0px 0px 30px 0px;
+}
+
+@media (max-width: 414px) {
+  .banner__h4 {
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 .conoce {
@@ -128,12 +184,31 @@
   color: #FFFFFF;
 }
 
+@media (max-width: 414px) {
+  .conoce {
+    font-size: 8px;
+    width: 80px;
+    height: 15px;
+    line-height: 15px;
+    margin: 0px 0px 0px 144px;
+    border-radius: 5px;
+  }
+}
+
 hr {
   height: 10px;
   width: 60%;
   background-color: #E59E8D;
   border: none;
   margin: 40px 0px 0px 140px;
+}
+
+@media (max-width: 414px) {
+  hr {
+    margin: 10px 0px 0px 100px;
+    width: 60%;
+    height: 5px;
+  }
 }
 
 /*body,html{
@@ -279,10 +354,10 @@ body, html {
   width: 180px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__logo {
     width: 120px;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 30px;
   }
 }
 
@@ -312,7 +387,7 @@ body, html {
   background-color: black;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .hamburguerbtn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -333,7 +408,7 @@ body, html {
           align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__nav {
     display: none;
   }
@@ -370,10 +445,10 @@ body, html {
   font-size: 40px;
   color: #434F73;
   text-decoration: none;
-  margin: 0px 50px 0px -20px;
+  margin: 0px 50px 0px 0px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__container .mainheader__link {
     font-size: 35px;
     margin: 0px -20px 0px -20px;
@@ -390,10 +465,6 @@ body, html {
   top: 100px;
 }
 
-.mainheader__body {
-  margin: 0px 35px 0px 0px;
-}
-
 .mainheader__icon {
   width: 70px;
   padding-left: 270px;
@@ -401,11 +472,11 @@ body, html {
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .mainheader__icon {
     float: none;
     width: 50px;
-    padding-left: 80px;
+    padding-left: 100px;
     margin-top: 10px;
   }
 }
