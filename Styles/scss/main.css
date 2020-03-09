@@ -1011,6 +1011,15 @@ body, html {
   padding: 0px;
 }
 
+@media (max-width: 414px) {
+  .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .product__main {
   padding: 50px 0px;
   display: -webkit-box;
@@ -1018,9 +1027,27 @@ body, html {
   display: flex;
 }
 
+@media (max-width: 414px) {
+  .product__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
 .product__text {
-  float: left;
   padding: 55px 0px;
+}
+
+@media screen {
+  .product__text {
+    padding: 50px 0px 0px 0px;
+  }
 }
 
 .product__h2 {
@@ -1032,12 +1059,27 @@ body, html {
   margin: 0px 0px 0px 200px;
 }
 
+@media (max-width: 414px) {
+  .product__h2 {
+    font-size: 20px;
+    margin: 0px 0px 0px 120px;
+  }
+}
+
 .product__line {
   height: 10px;
   width: 55%;
   background-color: #E59E8D;
   border: none;
   margin: 0px 0px 0px 150px;
+}
+
+@media (max-width: 414px) {
+  .product__line {
+    height: 0px;
+    width: 0%;
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 .product__h3 {
@@ -1047,6 +1089,19 @@ body, html {
   font-size: 30px;
   color: #282727;
   margin: -10px 0px 0px 220px;
+}
+
+@media screen {
+  .product__h3 {
+    font-size: 22px;
+    margin: 0px 0px 0px 100px;
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #E59E8D;
+  }
 }
 
 .product__tips {
@@ -1062,11 +1117,25 @@ body, html {
   padding: 10px 100px;
 }
 
+@media (max-width: 414px) {
+  .product__tips {
+    font-size: 0px;
+    margin: 0px 0px 0px 0px;
+    display: none;
+  }
+}
+
 .product__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 20px 0px 30px 0px;
+}
+
+@media (max-width: 414px) {
+  .product__body {
+    padding: 0px 0px 0px 0px;
+  }
 }
 
 .product__photo {
@@ -1077,10 +1146,26 @@ body, html {
   padding: 0px 0px 0px 20px;
 }
 
+@media (max-width: 414px) {
+  .product__photo {
+    width: 400px;
+    height: 340px;
+    padding: 0px 0px 30px 20px;
+  }
+}
+
 .product__gif {
   width: 800px;
   height: 550px;
   padding: 20px 0px;
+}
+
+@media (max-width: 414px) {
+  .product__gif {
+    width: 400px;
+    height: 340px;
+    padding: 20px 0px;
+  }
 }
 
 .contact {
