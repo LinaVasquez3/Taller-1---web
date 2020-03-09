@@ -29,4 +29,4 @@ setInterval(function(){
     if(index >= thumbs.length){
         index = 0;
     }
-}, 1000);
+}, 5);
