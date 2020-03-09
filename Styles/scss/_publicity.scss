@@ -36,6 +36,14 @@
     width: 20px;
     height: 20px;
     border:none;
+    background-color: $decoration-color;
+    font-size: $primary-font;
+    font-weight: normal;
+    color: $neutro-color;
+    font-size: 6px;
+    text-align: center;
+    align-items: center;
+
 
     @media (max-width: $responsive) {
         border-radius: 50%;
@@ -49,6 +57,13 @@
     width: 20px;
     height: 20px;
     border:none;
+    background-color: $decoration-color;
+    font-size: $primary-font;
+    font-weight: normal;
+    color: $neutro-color;
+    font-size: 6px;
+    text-align: center;
+    align-items: center;
 
     @media (max-width: $responsive) {
         border-radius: 50%;

@@ -161,9 +161,11 @@ body,html{
     outline: none;
 
     span {
-        height: 6px;
-        width: 100%;
-        background-color: black;
+        height: 5px;
+        width: 80%;
+        border-radius: 2px;
+        margin: 0px 0px 0px 10px;
+        background-color: $primary-color;
     }
 
     @media(max-width: $responsive){
@@ -186,11 +188,11 @@ body,html{
     position: absolute;
     display: flex !important;
     flex-direction: column;
-    background: black;
+    background: $primary-color;
     color: white;
-    height: 250px;
+    height: 200px;
     top: 120px;
-    left: 10px;
+    left: 20px;
     margin: 0px;
 }
 
@@ -223,7 +225,15 @@ body,html{
     margin: auto 20px;
     left: 250px;
     top: 100px;
+
+    @media (max-width:$responsive) {
+        color: white;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+
+    }
 }
+
 
 
 .mainheader__icon{

@@ -382,9 +382,11 @@ body, html {
 }
 
 .hamburguerbtn span {
-  height: 6px;
-  width: 100%;
-  background-color: black;
+  height: 5px;
+  width: 80%;
+  border-radius: 2px;
+  margin: 0px 0px 0px 10px;
+  background-color: #F2CEA2;
 }
 
 @media (max-width: 414px) {
@@ -423,11 +425,11 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: black;
+  background: #F2CEA2;
   color: white;
-  height: 250px;
+  height: 200px;
   top: 120px;
-  left: 10px;
+  left: 20px;
   margin: 0px;
 }
 
@@ -463,6 +465,14 @@ body, html {
   margin: auto 20px;
   left: 250px;
   top: 100px;
+}
+
+@media (max-width: 414px) {
+  .mainnav__link {
+    color: white;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+  }
 }
 
 .mainheader__icon {
@@ -540,6 +550,15 @@ body, html {
   width: 20px;
   height: 20px;
   border: none;
+  background-color: #E59E8D;
+  font-size: "Poppins";
+  font-weight: normal;
+  color: #F2EBDF;
+  font-size: 6px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 414px) {
@@ -555,6 +574,15 @@ body, html {
   width: 20px;
   height: 20px;
   border: none;
+  background-color: #E59E8D;
+  font-size: "Poppins";
+  font-weight: normal;
+  color: #F2EBDF;
+  font-size: 6px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 414px) {
@@ -1076,9 +1104,7 @@ body, html {
 
 @media (max-width: 414px) {
   .product__line {
-    height: 0px;
-    width: 0%;
-    margin: 0px 0px 0px 0px;
+    display: none;
   }
 }
 
@@ -1091,7 +1117,7 @@ body, html {
   margin: -10px 0px 0px 220px;
 }
 
-@media screen {
+@media (max-width: 414px) {
   .product__h3 {
     font-size: 22px;
     margin: 0px 0px 0px 100px;
@@ -1476,6 +1502,12 @@ body, html {
           justify-content: center;
 }
 
+@media (max-width: 414px) {
+  .footer__logo {
+    width: 130px;
+  }
+}
+
 /*footer body*/
 .footer__text {
   display: -webkit-box;
@@ -1492,9 +1524,21 @@ body, html {
   padding: 25px 0px;
 }
 
+@media (max-width: 414px) {
+  .footer__text {
+    padding: 10px 0px 100px 0px;
+  }
+}
+
 /*product*/
 .footer__politics {
   margin: 0px 200px 0px 0px;
+}
+
+@media (max-width: 414px) {
+  .footer__politics {
+    margin: 0px 0px 0px 30px;
+  }
 }
 
 .footer__ph2 {
@@ -1505,6 +1549,13 @@ body, html {
   color: #282727;
 }
 
+@media (max-width: 414px) {
+  .footer__ph2 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
 .footer__ph3 {
   font-family: "Poppins";
   font-style: normal;
@@ -1513,12 +1564,24 @@ body, html {
   color: #282727;
 }
 
+@media (max-width: 414px) {
+  .footer__ph3 {
+    font-size: 10px;
+  }
+}
+
 .footer__ph4 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   color: #282727;
+}
+
+@media (max-width: 414px) {
+  .footer__ph4 {
+    font-size: 10px;
+  }
 }
 
 .footer__ph5 {
@@ -1530,9 +1593,21 @@ body, html {
   margin: 0px auto;
 }
 
+@media (max-width: 414px) {
+  .footer__ph5 {
+    font-size: 10px;
+  }
+}
+
 /*service*/
 .footer__service {
   margin: 0px 200px 0px 0px;
+}
+
+@media (max-width: 414px) {
+  .footer__service {
+    margin: 0px 20px 0px 20px;
+  }
 }
 
 .footer__sh2 {
@@ -1543,6 +1618,13 @@ body, html {
   color: #282727;
 }
 
+@media (max-width: 414px) {
+  .footer__sh2 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
 .footer__sh3 {
   font-family: "Poppins";
   font-style: normal;
@@ -1551,12 +1633,24 @@ body, html {
   color: #282727;
 }
 
+@media (max-width: 414px) {
+  .footer__sh3 {
+    font-size: 10px;
+  }
+}
+
 .footer__sh4 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   color: #282727;
+}
+
+@media (max-width: 414px) {
+  .footer__sh4 {
+    font-size: 10px;
+  }
 }
 
 .footer__sh5 {
@@ -1568,9 +1662,21 @@ body, html {
   margin: 0px auto;
 }
 
+@media (max-width: 414px) {
+  .footer__sh5 {
+    font-size: 10px;
+  }
+}
+
 /*contact*/
 .footer__contact {
   margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 414px) {
+  .footer__contact {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 .footer__ch2 {
@@ -1581,12 +1687,25 @@ body, html {
   color: #282727;
 }
 
+@media (max-width: 414px) {
+  .footer__ch2 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
 .footer__ch3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   color: #282727;
+}
+
+@media (max-width: 414px) {
+  .footer__ch3 {
+    font-size: 10px;
+  }
 }
 
 .footer__ch4 {
@@ -1597,6 +1716,12 @@ body, html {
   color: #282727;
 }
 
+@media (max-width: 414px) {
+  .footer__ch4 {
+    font-size: 10px;
+  }
+}
+
 .footer__ch5 {
   font-family: "Poppins";
   font-style: normal;
@@ -1604,5 +1729,11 @@ body, html {
   font-size: 13px;
   color: #282727;
   margin: 0px auto;
+}
+
+@media (max-width: 414px) {
+  .footer__ch5 {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
