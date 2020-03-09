@@ -1193,6 +1193,15 @@ body, html {
   font-size: 32px;
 }
 
+@media (max-width: 414px) {
+  .contact__square {
+    font-size: 25px;
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
 .contact__line {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1202,6 +1211,13 @@ body, html {
   background-color: #E59E8D;
   border: none;
   margin: -35px 0px 0px -30px;
+}
+
+@media (max-width: 414px) {
+  .contact__line {
+    margin: -32px 0px 0px -20px;
+    height: 8px;
+  }
 }
 
 .block__main {
@@ -1220,6 +1236,13 @@ body, html {
 /*block head*/
 .block__logo {
   width: 180px;
+}
+
+@media (max-width: 414px) {
+  .block__logo {
+    width: 150px;
+    height: 180px;
+  }
 }
 
 .block__head {
@@ -1256,6 +1279,13 @@ body, html {
   margin: 50px 0px 0px 0px;
 }
 
+@media (max-width: 414px) {
+  .block__contact {
+    margin: 50px 0px 0px 0px;
+    font-size: 25px;
+  }
+}
+
 .block__desp {
   font-family: "Poppins";
   font-style: normal;
@@ -1264,6 +1294,14 @@ body, html {
   line-height: 30px;
   color: #282727;
   margin: 5px 0px 0px 0px;
+}
+
+@media (max-width: 414px) {
+  .block__desp {
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+    line-height: 18px;
+  }
 }
 
 /*block body*/
@@ -1301,6 +1339,21 @@ body, html {
           justify-content: center;
 }
 
+@media (max-width: 414px) {
+  .block__body1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .block__name {
   font-family: "Poppins";
   width: 300px;
@@ -1311,6 +1364,13 @@ body, html {
   color: #E59E8D;
 }
 
+@media (max-width: 414px) {
+  .block__name {
+    width: 325px;
+    margin: 0px 0px 25px 0px;
+  }
+}
+
 .block__number {
   font-family: "Poppins";
   width: 300px;
@@ -1318,6 +1378,12 @@ body, html {
   border: 2px solid #E59E8D;
   padding: 0px 20px;
   color: #E59E8D;
+}
+
+@media (max-width: 414px) {
+  .block__number {
+    width: 325px;
+  }
 }
 
 /*block body2*/
@@ -1340,6 +1406,12 @@ body, html {
   border: 2px solid #E59E8D;
   padding: 0px 20px;
   color: #E59E8D;
+}
+
+@media (max-width: 414px) {
+  .block__email {
+    margin: 25px 0px 0px 0px;
+  }
 }
 
 .block__message {
@@ -1367,6 +1439,13 @@ body, html {
   text-align: center;
   font-size: 14px;
   cursor: pointer;
+}
+
+@media (max-width: 414px) {
+  .block__send {
+    width: 355px;
+    margin: 0px 0px 25px 5px;
+  }
 }
 
 .block__send:hover {
